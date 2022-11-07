@@ -1,4 +1,4 @@
-from pls import PLS
+from dspls import PLS
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
