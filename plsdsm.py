@@ -4,6 +4,7 @@ from sklearn import preprocessing
 import math
 import statsmodels.api as sm
 
+
 class PLS:
     def __init__(self, p_value_threshold=0.05, correlation_threshold=0.5):
         self.p_value_threshold = p_value_threshold
